@@ -22,7 +22,7 @@ h1, h2 {
 .stepTitle{
 	padding:4px;
 	text-align:left;
-	font-size:15px;
+	font-size:16px;
 	background-color:#F7B857
  }
 
@@ -34,22 +34,15 @@ h1, h2 {
 }
 
 .stepDescription {
-	width:55%;
+	width:100%;
 	padding:5px;
 }
 
 .stepImage {
-	width: 100%;
-	height: 100%;
-	object-fit: contain;
+	width: 50%
+	height:auto
 	padding:5px;
 	text-align: center;
-	border-top-left-radius: 20px;
-	border-top-right-radius: 20px;
-	border-bottom-left-radius: 20px;
-	border-bottom-right-radius: 20px;
-
-
 }
 
 
