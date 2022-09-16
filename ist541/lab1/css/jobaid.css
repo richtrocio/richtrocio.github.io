@@ -2,9 +2,9 @@
 /* All comments go between the front slash and asterisk symbols */
 
 body {
-	background-color:#2C4BAF;   /* background color */
-	color: #4D0101;          /* text color for the entire page */
-	font-size: 15px;
+	background-color:darkorange;   /* background color */
+	color: black;          /* text color for the entire page */
+	font-size: 16px;
 	font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -14,7 +14,7 @@ h1, h2 {
 
 /* styles for the "wrapper" div, notice that "wrapper" is preceded by "#" */
 #wrapper {
-	width:900px;
+	width:1100px;
 	margin:0 auto;    /* centers wrapper */
 }
 
@@ -22,13 +22,13 @@ h1, h2 {
 .stepTitle{
 	padding:4px;
 	text-align:left;
-	font-size:16px;
+	font-size:15px;
 	background-color:#F7B857
  }
 
 .stepContent{ 
-	background-color: white;
-	padding:7px;
+	background-color: ghostwhite;
+	padding:2px;
 	display: flex;
 	justify-content: center;
 }
@@ -39,9 +39,13 @@ h1, h2 {
 }
 
 .stepImage {
-width:40%;	
+	max-width: 100%;
+	height: auto;
 	padding:5px;
 	text-align: center;
+	border-radius: 20px;
+	box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
+
 }
 
 
