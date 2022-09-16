@@ -52,6 +52,11 @@ img {
 	background-color: black
 }
 
+.warning {
+		background-color: #FBB8C4;
+		padding:10px;
+		border-radius:20px;
+	}
 
 
 
