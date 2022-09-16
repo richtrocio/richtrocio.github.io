@@ -8,7 +8,7 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 }
 
-h1, h2 { 
+h1, h2 , h4 , h6 { 
 	text-align:center;     /* centers h1 and h2 content */
 }
 
@@ -30,19 +30,26 @@ h1, h2 {
 	background-color: ghostwhite;
 	padding:2px;
 	display: flex;
-	justify-content: center;
+	justify-content: left;
 }
 
 .stepDescription {
-	width:100%;
+	width:75%;
 	padding:5px;
 }
 
+img {
+ height: 100%;
+ width: 100%;
+ object-fit: contain;
+}
 .stepImage {
-	width: 50%
-	height:auto
+	height:300px;
+ 	width: 300px;
 	padding:5px;
-	text-align: center;
+	border-radius: 20px;
+	box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
+	background-color: black
 }
 
 
