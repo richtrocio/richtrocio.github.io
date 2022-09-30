@@ -9,7 +9,7 @@ body {
 }
 
 #wrapper {
-	width:900px;
+	border 900px;
 	margin:0 auto;         /* centers wrapper */
  	text-align:center;
 	background-color: antiquewhite;  /* creates white background with 80% opacity */
