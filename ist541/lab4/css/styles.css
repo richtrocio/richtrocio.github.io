@@ -31,6 +31,12 @@ audio {
 	width:200px;   /* sets the width of the audio controls */
 }
 
+img {
+	width: 200px;
+	height:auto;
+}
+
+
 
 a {
 	padding: 15px;
