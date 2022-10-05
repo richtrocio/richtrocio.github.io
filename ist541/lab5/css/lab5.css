@@ -36,10 +36,11 @@ a {
 margin: 3px;
 	font-size: 125%;
 	background-color:  dimgray; 
-	color:  darkorange; 
+	color:  black;
+	
 }
 
 a:hover {
 	font-size:200%;
-	background-color: cornflowerblue; 
-	color: goldenrod; 
+	background-color: dimgray; 
+	color: black; 

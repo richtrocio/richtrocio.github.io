@@ -10,17 +10,16 @@
 <body>
 <div id="wrapper">
   <h1>Who do I think is Black Panther in Wakanda Forever?</h1>
+  <a href="index.html"> Page 1 </a> 
+	<br><br><br>
+<img id="newblackpanther" src="img/newblackpanther.webp"/>
   <h3>Click on one of the following choices</h3>
-  <br>
-  <button onclick="reset">reset</button>
   <h2 onclick="wrongAnswer1()" class="choices"> M'Baku </h2>
   <h2 onclick="wrongAnswer2()" class="choices"> Okoye </h2>
   <h2 onclick="wrongAnswer3()" class="choices"> Nakia </h2>
   <h2 onclick="rightAnswer()" class="choices"> Shuri </h2>
   <div id="feedback"></div>
-  	<img id="newblackpanther" src="img/newblackpanther.webp"/> <img id="mbaku" src="img/mbaku.jpeg"/> <img id="okoye" src="img/okoye.jpeg"/> <img id="nakia" src="img/nakia.jpeg"/> <img id="shuri" src="img/shuri.jpeg"/> </div>
-</div>
-	
+  <img id="mbaku" src="img/mbaku.jpeg"/> <img id="okoye" src="img/okoye.jpeg"/> <img id="nakia" src="img/nakia.jpeg"/> <img id="shuri" src="img/shuri.jpeg"/> </div>
 <script>
       function rightAnswer(){
          $("#feedback").html("<h2 style='color:green'> SHURI is the sister of the late T'Challa. This is my guess but I have no idea!</h2>");
@@ -28,7 +27,6 @@
 		 $("#mbaku").hide();
 		 $("#okoye").hide();
 		 $("#nakia").hide();
-		 $("#newblackpanther").hide();
       }
 	function wrongAnswer1(){
       $("#feedback").html("<h2 style='color:red'> M'BAKU is the leader of the Jabari Tribe. Good guess but I have no idea! </h2>");
@@ -36,7 +34,6 @@
 		$("#okoye").hide();
 		$("#nakia").hide();
 		$("#shuri").hide();
-		$("#newblackpanther").hide();
    }
    function wrongAnswer2(){
       $("#feedback").html("<h2 style='color:red'> OKOYE is the general of the Dora Milaje. Good guess but I have no idea! </h2>");
@@ -44,7 +41,6 @@
 		$("#okoye").show();
 		$("#nakia").hide();
 		$("#shuri").hide();
-		$("#newblackpanther").hide();
    }
    function wrongAnswer3(){
       $("#feedback").html("<h2 style='color:red'> NAKIA is a close confidant of T'Challa. Good guess but I have no idea!</h2>");
@@ -52,7 +48,6 @@
 		$("#okoye").hide();
 		$("#nakia").show();
 		$("#shuri").hide();
-		$("#newblackpanther").hide();
    }
    </script>
 </body>

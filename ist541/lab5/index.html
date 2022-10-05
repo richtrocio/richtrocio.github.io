@@ -11,7 +11,8 @@
 <body>
 <div id="wrapper">
   <h1>Who is the next Blank Panther?</h1>
-  <h3 id="hint">Hint: Hover over the image below to find out</h3>
+	<h2><a href="page2.html"> Page 2 </a></h2>
+  <h1><button onclick="hint">Hint: Hover over the image below to find out</button></h2>
   <img onmouseenter="showAnswer()" id="blackpanther"  src="img/blackpanther.jpg"   /> <img onmouseleave="hideAnswer()" id="blackpanther2" src="img/blackpanther2.jpg" />
   <div id="answer"></div>
   <!-- This is a placeholder to display here the answer--> 
@@ -20,7 +21,11 @@
 <!-- closing  “wrapper” --> 
 
 <script>
- function showAnswer() {
+ 	function hint() {
+		alert("Hover over the image");
+		alert("and see below");
+	}
+	function showAnswer() {
 	   $("#blackpanther").hide();
 	   $("#blackpanther2").show();
 	   $("#answer").html("<h2> <b>I Don't Know! </b><br> We got to watch Black Panther: Wakanda Forever <br> Coming out November 11, 2022</h2>");
