@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>page2</title>
+<link href=css/.."lab5.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</head>
+
+<body>
+<div id="wrapper">
+  <h1>Who do I think is Black Panther in Wakanda Forever?</h1>
+  <h3>Click on one of the following choices</h3>
+  <h2 class="choices"> M'Baku </h2>
+  <h2 class="choices"> Okoye </h2>
+  <h2 class="choices"> Nakia </h2>
+  <h2 class="choices"> Shuri </h2>
+  <div id="feedback"></div>
+  <img id="shuri" src="img/shuri.jpeg"/> </div>
+</body>
+	<script>
+      function rightAnswer(){
+         $("#feedback").html("<h2 style='color:green'> SHURI is the sister of the late T'Challa. This is my guess but <br><b>I have no idea!</b></h2>");
+         $("#shuri").show();
+      }
+	function wrongAnswer1(){
+      $("#feedback").html("<h2 style='color:red'> M'BAKU is the leader of the Jabari Tribe. Good guess but <br> <b>I have no idea! </b> </h2>");
+      $("#shuri").hide();
+   }
+   function wrongAnswer2(){
+      $("#feedback").html("<h2 style='color:red'> OKOYE is the general of the Dora Milaje. Good guess but <br> <b>I have no idea! </b></h2>");
+      $("#shuri").hide();
+   }
+		 }
+   function wrongAnswer3(){
+      $("#feedback").html("<h2 style='color:red'> Nakia is close confidant of T'Challa. Good guess but <br> <b>I have no idea! </b></h2>");
+      $("#shuri").hide();
+   }
+
+   </script>
+</html>
