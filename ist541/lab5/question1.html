@@ -4,13 +4,17 @@
 <meta charset="UTF-8">
 <title>question1</title>
 <link href="css/koala.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
 </head>
 
 <body>
 <div id="wrapper">
   <h1>What is Koala's Favorite Food?</h1>
   <h3 id="hint">Hint: Hover over the image below to find out!</h3>
-  <img onmouseenter="showAnswer()" id="koala"  src="img/koala.png"   /> <img onmouseleave="hideAnswer()" id="koala_eating" src="img/koala_eating.jpg" /> <img id="koala"  src="img/koala.png"   /> <img id="koala_eating" src="img/koala_eating.jpg" />
+  <img onmouseenter="showAnswer()" id="koala"  src="img/koala.png"   />
+<img onmouseleave="hideAnswer()" id="koala_eating" src="img/koala_eating.jpg" />
+	<img id="koala"  src="img/koala.png"   /> <img id="koala_eating" src="img/koala_eating.jpg" />
   <div id="answer"></div>
   <!-- This is a placeholder to display here the answer--> 
   
@@ -31,7 +35,6 @@ function hideAnswer() {
 	}
 </script>
 </body>
-<!--  You don’t need to copy this line, it just shows where to copy the above lines-->
 
 </body>
 </html>
