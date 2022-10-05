@@ -12,7 +12,7 @@
 <div id="wrapper">
   <h1>Who is the next Blank Panther?</h1>
 	<h2><a href="page2.html"> Page 2 </a></h2>
-  <h1><button onclick="hint">Hint: Hover over the image below to find out</button></h2>
+  <h1><button onclick="hint()">Hint: Hover over the image below to find out</button></h2>
   <img onmouseenter="showAnswer()" id="blackpanther"  src="img/blackpanther.jpg"   /> <img onmouseleave="hideAnswer()" id="blackpanther2" src="img/blackpanther2.jpg" />
   <div id="answer"></div>
   <!-- This is a placeholder to display here the answer--> 
@@ -23,7 +23,7 @@
 <script>
  	function hint() {
 		alert("Hover over the image");
-		alert("and see below");
+		alert("and see below description");
 	}
 	function showAnswer() {
 	   $("#blackpanther").hide();
