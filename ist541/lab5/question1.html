@@ -10,8 +10,8 @@
 <body>
 <div id="wrapper">
   <h1>What is Koala's Favorite Food?</h1>
-   
-	<img id="koala"  src="img/koala.png"   /> <img id="koala_eating" src="img/koala_eating.jpg" />
+  <h3 id="hint">Hint: Hover over the image below to find out!</h3>
+  <img onmouseenter="showAnswer()" id="koala"  src="img/koala.png"   /> <img onmouseleave="hideAnswer()" id="koala_eating" src="img/koala_eating.jpg" />
   <div id="answer"></div>
   <!-- This is a placeholder to display here the answer--> 
   
