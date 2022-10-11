@@ -18,6 +18,9 @@ $( function() {
       }
 
   $("#feedback").css("backgroundColor","yellow");
+	   $('#myModal').modal("show");
+
+$('#myModal').modal("show");
 
    });
 }); //end main jQuery function
