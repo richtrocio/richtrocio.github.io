@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Lab 6  Image Maps/Host Spot Activities</title>
+<link href="css/hotspot.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="js/hotspot.js"></script>
+
+</head>
+
+<body>
+	<div id="wrapper">       
+ <h2>What is the country with the largest population?</h2>
+ <h3> Click on it! </h3>
+ <div id="feedback"></div> <!-- feedback will be displayed here -->
+ <img src="img/worldmap.png" width="650" height="420" alt="World Map"/>
+		<map name="Map">
+    <area id="USA" shape="rect" coords="9,87,156,143" href="#" alt="USA" title="USA">
+    <area id="India" shape="poly" coords="497,149,491,163,500,174,517,213,527,204,539,177,550,165,534,148,515,134,510,129" href="#" alt="India" title="India">
+    <area id="China" shape="poly" coords="514,91,507,108,500,118,513,129,549,152,567,149,575,154,574,164,595,160,610,165,624,155,623,138,608,118,626,110,632,100,618,84,592,75,596,90,587,105,572,108,546,104,530,90" href="#" alt="China" title="China">
+  </map>
+
+ <br /><br />
+  <div style="font-size:10px">Image Courtesy of the University of Texas Libraries, The University of Texas at Austin.</div><br /> 
+</div><!--closing wrapper-->
+
+</body>
+</html>
