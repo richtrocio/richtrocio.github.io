@@ -2,20 +2,26 @@
 $( function() {
    $("map area").click( function(){
 
-      if ($(this).attr("id") == "USA") {
+      if ($(this).attr("id") == "College of Engineering Building") {
          $("#feedback").css("color","red");
-         $("#feedback").html("No, USA is the third one");
+         $("#feedback").html("Yes, faculty and academic advisors are located in this building");
       }
 
-      if ($(this).attr("id") == "China") {
+      if ($(this).attr("id") == "Student Services Center") {
          $("#feedback").css("color","green");
-         $("#feedback").html("Yes, China has the largest population: 1,343,239,923");
+         $("#feedback").html("Student Services Center");
       }
 
-      if ($(this).attr("id") == "India") {
+      if ($(this).attr("id") == "Student Wellness Center") {
          $("#feedback").css("color","red");
-         $("#feedback").html("No,India is the second one");
+         $("#feedback").html("Student Wellness Center");
       }
+	   
+	   if ($(this).attr("id") == "Student Recreation Ceneter") {
+         $("#feedback").css("color","red");
+         $("#feedback").html("Student Recreation Center");
+      }
+
 
   $("#feedback").css("backgroundColor","yellow");
 	   $('#myModal').modal("show");
