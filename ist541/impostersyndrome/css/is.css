@@ -27,6 +27,16 @@ border: silver 5px solid;
 cursor: pointer;
 }
 
+#alloftheabove_image {
+border: brown 5px solid;
+}
+ 
+ #alloftheabove {
+display: none; /* hides content */
+border: brown 5px solid;
+}
+
+
 img {
 width: 400px;
 height:auto;
