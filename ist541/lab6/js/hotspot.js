@@ -23,7 +23,7 @@ $( function() {
       }
 
 
-  $("#feedback").css("backgroundColor","yellow");
+  $("#feedback").css("backgroundColor","white");
 	   $('#myModal').modal("show");
 
 $('#myModal').modal("show");
