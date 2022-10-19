@@ -1,0 +1,47 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body{
+background-color:black;
+color: steelblue
+}
+
+#wrapper {
+width: 900px;
+margin: 0 auto;
+text-align: center;
+	background-color:black
+}
+
+ #blackpanther {
+border: silver 5px solid;
+}
+ 
+ #blackpanther2 {
+display: none; /* hides content */
+border: silver 5px solid;
+}
+
+.choices {
+cursor: pointer;
+}
+
+img {
+width: 300px;
+height:auto;
+}
+
+a {
+	padding: 15px;
+margin: 3px;
+	font-size: 125%;
+	background-color:  dimgray; 
+	color:  black;
+	
+}
+
+a:hover {
+	font-size:200%;
+	background-color: dimgray; 
+	color: black; 
