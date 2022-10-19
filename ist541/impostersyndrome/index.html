@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <title>Final Project: Imposter Syndrome</title>
 <link href="css/is.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 
 </head>
 
@@ -25,5 +26,30 @@
 		
 	<h2>	So, what is Imposter Syndrome? </h2>
 	
+	<h1><button onclick="hint()" class="choices">Hint: Hover over the image below</button></h2>
+  <img onmouseenter="showAnswer()" id="is"  src="img/is.webp"/>
+<img onmouseleave="hideAnswer()" id="questionmarks" src="img/question-marks.png" />
+  <div id="answer"></div>
+	
+	</div>
+	
+	<script>
+ 	function hint() {
+		alert("Hover over the image below");
+		alert("Click on the other pages for more info");
+	}
+		
+	function showAnswer() {
+	   $("#is").hide();
+	   $("#questionmarks").show();
+	   $("#answer").html("<h2> <b>Click on each page to find out </b></h2>");
+	}
+
+function hideAnswer() {
+	   $("#is").show();
+	   $("#questionmarks").hide();
+	   $("#answer").html("");  
+	}
+</script>
 </body>
 </html>

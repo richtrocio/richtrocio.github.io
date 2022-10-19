@@ -3,8 +3,8 @@
 
 
 body{
-background-color:black;
-color: steelblue
+background-color:antiquewhite;
+color: rosybrown
 }
 
 #wrapper {
@@ -14,11 +14,11 @@ text-align: center;
 	background-color:black
 }
 
- #blackpanther {
+ #is {
 border: silver 5px solid;
 }
  
- #blackpanther2 {
+ #questionmarks {
 display: none; /* hides content */
 border: silver 5px solid;
 }
@@ -28,7 +28,7 @@ cursor: pointer;
 }
 
 img {
-width: 300px;
+width: 400px;
 height:auto;
 }
 
