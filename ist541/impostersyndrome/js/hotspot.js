@@ -47,9 +47,7 @@ $( function() {
       }
 	    
   $("#feedback").css("backgroundColor","white");
-	   $('#myModal').modal("show");
-
-$('#myModal').modal("show");
+	   $("#myModal").modal("show");
 
    });
 });
