@@ -17,6 +17,7 @@ text-align: center;
  #is {
 border: silver 5px solid;
 }
+
  
  #questionmarks {
 display: none; /* hides content */
@@ -48,10 +49,38 @@ margin: 3px;
 	font-size: 125%;
 	background-color:  dimgray; 
 	color:  black;
-	
 }
 
 a:hover {
 	font-size:200%;
 	background-color: dimgray; 
 	color: black; 
+}
+
+.stepTitle{
+	padding:4px;
+	text-align:left;
+	font-size:16px;
+	background-color: black
+ }
+
+.stepContent{ 
+	background-color: ghostwhite;
+	padding:2px;
+	display: flex;
+	justify-content: left;
+}
+
+.stepDescription {
+	width:75%;
+	padding:5px;
+}
+
+.stepImage {
+	height:contain;
+ 	width: contain;
+	padding:5px;
+	border-radius: 20px;
+	box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
+	background-color: black
+}
