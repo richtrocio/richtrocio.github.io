@@ -17,6 +17,7 @@ text-align: center;
 border: silver 5px solid;
 }
  
+
  #blackpanther2 {
 display: none; /* hides content */
 border: silver 5px solid;
@@ -44,3 +45,24 @@ a:hover {
 	font-size:200%;
 	background-color: dimgray; 
 	color: black; 
+}
+	
+#mbaku	{
+display: none; /* hides content */
+border: silver 5px solid;
+}
+
+#okoye {
+display: none; /* hides content */
+border: silver 5px solid;
+}
+	
+#nakia {
+display: none; /* hides content */
+border: silver 5px solid;
+}
+	
+#shuri {
+display: none; /* hides content */
+border: silver 5px solid;
+}
